@@ -57,7 +57,7 @@ const config: StorybookConfig = {
               loader: require.resolve("babel-loader"),
             },
             {
-              loader: require.resolve("@linaria/webpack-loader"),
+              loader: require.resolve("@wyw-in-js/webpack-loader"),
               options: {
                 sourceMap: true,
               },

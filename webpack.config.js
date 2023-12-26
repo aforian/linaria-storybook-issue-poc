@@ -22,7 +22,7 @@ module.exports = function webpack(env, argv) {
               loader: 'babel-loader',
             },
             {
-              loader: '@linaria/webpack-loader',
+              loader: '@wyw-in-js/webpack-loader',
             },
           ],
         },
