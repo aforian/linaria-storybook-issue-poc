@@ -5,12 +5,12 @@ module.exports = {
     ['@babel/preset-typescript'],
     ['@linaria'],
   ],
-  plugins: [
-    [
-      '@babel/plugin-transform-runtime',
-      {
-        corejs: 3,
-      },
-    ],
-  ],
+  // plugins: [
+  //   [
+  //     '@babel/plugin-transform-runtime',
+  //     {
+  //       corejs: 3,
+  //     },
+  //   ],
+  // ],
 };
